@@ -313,7 +313,7 @@ function Home() {
   const [busca, setBusca] = useState('');
   const [cidadeSelecionada, setCidadeSelecionada] = useState('');
   const [favelaSelecionada, setFavelaSelecionada] = useState('');
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
     const createParticles = () => {
